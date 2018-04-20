@@ -8,6 +8,8 @@ Sub CreateRule()
     Dim oInbox As Outlook.Folder 
     Dim oMoveTarget As Outlook.Folder 
 
+
+
     'Specify target folder for rule move action 
     Set oInbox = Application.Session.GetDefaultFolder(olFolderInbox) 
     'Assume that target folder already exists 
